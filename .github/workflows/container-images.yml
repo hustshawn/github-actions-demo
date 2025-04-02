@@ -8,7 +8,7 @@ on:
     tags: [ 'v*.*.*' ]
 
 env:
-  # REGISTRY: ${{ secrets.REGISTRY }}
+  REGISTRY: ${{ vars.REGISTRY }}
   IMAGE_NAME: github-actions-demo
 
 jobs:
